@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: #333;
+  padding: 1rem 0;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1.5rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #f0c040;
+}
+
+section {
+  padding: 100px 20px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+#home {
+  background: #f8f8f8;
+}
+
+#about {
+    background-color: #e3f0f1;
+}
+
+#home {
+  background: linear-gradient(135deg, #f5d890, #d17e01da);
+  padding: 5rem 2rem;
+  color: #333;
+  border-radius: 20px;
+  margin: 2rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.home-content h1 {
+  color: #f8f8f8;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+
+.home-content p {
+  font-size: 2rem;
+  max-width: 600px;
+  line-height: 1.8;
+  color: #222;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  font-family: monospace;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+}
+
+#about {
+  background: linear-gradient(135deg, #98d8f6, #057ea0);
+  padding: 5rem 2rem;
+  text-align: center;
+  color: #333;
+  border-radius: 20px;
+  margin: 2rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+
+.about-photo {
+  width: 400px;
+  height: 500px;
+  border-radius: 45%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.about-text {
+  max-width: 750px;
+  font-family: monospace;
+  font-size: 30px;
+  text-align: left;
+}
+
+#portfolio {
+  background: linear-gradient(135deg, #89a1ff, #6dd3ef);
+  padding: 5rem 2rem;
+  text-align: center;
+  color: #333;
+  border-radius: 20px;
+  margin: 2rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap; 
+  padding: 20px;
+}
+
+.game-description {
+  flex: 1;
+  width: 250px;
+  text-align: right;
+  padding-right: 10px;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+.game-description h3 {
+  text-align: center;
+}
+
+.game-embed {
+  width: 485px;
+  size: 50px;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+#contact {
+  background: linear-gradient(135deg, #fceabb, #e1c066);
+  padding: 5rem 2rem;
+  text-align: center;
+  color: #333;
+  border-radius: 20px;
+  margin: 2rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+#contact h2 {
+  font-size: 3.5rem; 
+  margin-bottom: 1rem;
+}
+
+#contact p {
+  font-size: 1.6rem;
+  margin-bottom: 2.5rem;
+  font-family: monospace;
+}
+
+.contact-icon {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.contact-icon a {
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 1.5rem;
+  width: 180px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-icon a i {
+  font-size: 4rem;
+}
+
+.contact-icon a:hover {
+  transform: scale(1.15);
+  background-color: rgba(253, 120, 63, 0.793);
+}
+
+.fa-envelope { color: #fff; }
+.fa-whatsapp { color: #25D366; }
+.fa-instagram { color: #E1306C; }
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: white;
+}
